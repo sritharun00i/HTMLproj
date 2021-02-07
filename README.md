@@ -1,3 +1,1 @@
-
-A basic HTML page
-# HTMLproj
+# This is project is to get hands on with HTML.
