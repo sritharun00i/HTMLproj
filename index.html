@@ -6,10 +6,27 @@
         <link rel="stylesheet" type="text/css" href="index.css">
     </head>
     <body id="home" class="open-left">
-        <section class="center">
+        <div id="offcanvas-left" class="hide">
+            <ul>
+                <li><a href="#" >Item 1 </a></li>
+                <li><a href="#" >Item 1 </a></li>
+                <li><a href="#" >Item 1 </a></li>
+            </ul>
+        </div>
+        <div class="togglebar">
+            <!-- adds the class of hide to .offcanvas.left -->
+            <div class="toggle" onclick="toggleLeft()">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+        <div class="center">
             <header>
                 <nav>
-                    Navigation
+                    <ul>
+                        <li><a href="#" >Item 1 </a></li>
+                        <li><a href="#" >Item 1 </a></li>
+                        <li><a href="#" >Item 1 </a></li>
+                    </ul>
                 </nav>
             </header>
             <section>
@@ -28,14 +45,14 @@
                             </video>
                         </div>
                         <div class="responsive-vid">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/NZlfxWMr7nc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                           <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/NZlfxWMr7nc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
                         </div>
                     </article>
                 </main>
             </section>          
             <footer>
             </footer>
-        </section>
+        </div>
         <script type="text/javascript" src="index.js"></script>
     </body>
 </html>
